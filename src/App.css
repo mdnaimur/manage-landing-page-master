@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+  .hoverable {
+    @apply hover:opacity-25 hover:transition;
+  }
+}
