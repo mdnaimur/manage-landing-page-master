@@ -1,0 +1,89 @@
+@tailwind base;
+
+@layer base {
+  .header {
+    @apply justify-center items-center z-50 w-full;
+  }
+
+  .navbar {
+    @apply flex flex-wrap justify-between   items-center z-50 px-6 py-10  mr-8 ml-8    
+    sm:relative 
+    md:px-8
+    lg:flex-row;
+  }
+
+  .brandLogo {
+    @apply flex justify-between 
+     sm:space-x-7
+     sm:basis-full
+     lg:basis-auto;
+  }
+
+  /* .logo_link {
+    @apply flex sm:justify-between sm:basis-full sm:z-50;
+  }
+
+  .logo_img {
+    @apply grid place-content-center;
+  } */
+
+  .hamburgerBtn {
+    @apply transition-all aspect-square  lg:hidden;
+  }
+
+  .navigations {
+    @apply flex justify-center items-center transition-all duration-300 ease-in-out
+    fixed   z-40 sm:justify-center   sm:top-32 sm:px-28 sm:py-20 sm:rounded-md sm:shadow-xl sm:bg-Very-Pale-Red
+    lg:static lg:bg-transparent lg:shadow-none lg:rounded-none lg:px-8 lg:py-4 lg:text-base
+    lg:w-auto lg:h-auto lg:p-0 lg:translate-x-0;
+  }
+
+  .nav_items {
+    @apply flex justify-center items-center
+    sm:flex-col sm:items-center sm:justify-center sm:gap-4
+    lg:flex-row lg:gap-4
+    xl:gap-8;
+  }
+
+  .nav_item a {
+    @apply font-BeVetnamPro;
+  }
+
+  .get_start_btn {
+    @apply bg-Bright-Red text-Very-Light-Gray px-6 py-2 rounded-full text-sm font-BeVetnamPro
+    sm:hidden
+    lg:block;
+  }
+
+  /* nav_hero_section */
+
+  .nav_hero {
+    @apply flex flex-col-reverse w-full h-full px-4 py-4 justify-between items-center
+     text-Dark-Blue gap-y-7
+    md:flex-row;
+  }
+
+  .nav_hero_text_left {
+    @apply w-full text-center
+    md:w-1/2 md:text-left md:ml-12;
+  }
+
+  .nav_hero_title {
+    @apply text-5xl font-bold leading-normal pb-8
+    md:text-6xl md:leading-tight;
+  }
+
+  .nav_hero_paragraph {
+    @apply text-xl  text-Dark-Grayish-Blue leading-7 lg:text-justify;
+  }
+
+  .nav_hero_btn {
+    @apply bg-Bright-Red text-Very-Light-Gray px-6 py-2 rounded-full text-sm font-BeVetnamPro
+    mt-8;
+  }
+
+  .nav_hero_img_right {
+    @apply w-full pb-8
+    md:w-1/2 md:pb-0 md:mr-5;
+  }
+}
