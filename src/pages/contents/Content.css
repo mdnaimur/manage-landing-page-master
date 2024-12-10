@@ -1,0 +1,45 @@
+@tailwind base;
+
+@layer base {
+  .content {
+    @apply flex w-full justify-center items-start mx-auto text-center
+    px-8 pt-16 pb-20 text-Dark-Blue 
+    md:flex-row;
+  }
+
+  /* Left Content */
+  .content_left {
+    @apply w-full pb-10
+    md:w-1/2;
+  }
+
+  .content_title {
+    @apply font-bold text-4xl;
+  }
+
+  .content_title_text {
+  }
+
+  /* Right Content */
+
+  .content_right {
+    @apply w-full text-left space-y-8 md:w-1/2;
+  }
+
+  .content_paragraph_div {
+  }
+
+  .contetn_paragraph_number_title {
+  }
+  .content_paragraph_number {
+  }
+
+  .content_paragraph_text_title {
+  }
+
+  .content_paragraph_text_div {
+  }
+
+  .content_paragraph_text {
+  }
+}
