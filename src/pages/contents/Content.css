@@ -2,8 +2,8 @@
 
 @layer base {
   .content {
-    @apply flex w-full justify-center items-start mx-auto text-center
-    px-8 pt-16 pb-20 text-Dark-Blue 
+    @apply flex flex-col w-full justify-center items-start mx-auto text-center
+    px-16 pt-16 pb-20 text-Dark-Blue 
     md:flex-row;
   }
 
@@ -14,32 +14,43 @@
   }
 
   .content_title {
-    @apply font-bold text-4xl;
+    @apply font-bold text-4xl md:text-left
+    md:max-w-[471px];
   }
 
   .content_title_text {
+    @apply text-left pt-6 text-[18px] leading-6 text-Dark-Grayish-Blue
+    md:max-w-[371px];
   }
 
   /* Right Content */
 
   .content_right {
-    @apply w-full text-left space-y-8 md:w-1/2;
+    @apply w-full text-left  space-y-8 md:w-1/2;
   }
 
   .content_paragraph_div {
+    @apply w-full flex flex-col;
   }
 
   .contetn_paragraph_number_title {
+    @apply w-full flex flex-row gap-x-7 items-center bg-Very-Pale-Red
+    rounded-tl-full rounded-bl-full
+    md:bg-transparent;
   }
   .content_paragraph_number {
+    @apply bg-Bright-Red text-Very-Light-Gray rounded-full text-[16px] py-[7px] px-6;
   }
 
   .content_paragraph_text_title {
+    @apply font-bold text-[15px];
   }
 
   .content_paragraph_text_div {
+    @apply pt-4 pb-2 md:pl-24;
   }
 
   .content_paragraph_text {
+    @apply text-base leading-7 text-Dark-Grayish-Blue;
   }
 }
