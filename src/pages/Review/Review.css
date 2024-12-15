@@ -1,0 +1,41 @@
+@tailwind base;
+
+@layer base {
+  .review {
+    @apply flex flex-col pb-6 mb-6 mx-auto text-center;
+  }
+
+  .review_title {
+    @apply justify-center w-full mx-auto text-center items-center pt-5 pb-28
+    
+    md:pt-16;
+  }
+
+  .review_title_text {
+    @apply text-3xl font-semibold md:text-4xl text-center text-Dark-Blue;
+  }
+
+  .review_content {
+    @apply pb-6 mb-6 flex flex-col md:flex-row gap-3;
+  }
+
+  .review_content_item_div {
+    @apply mx-auto max-w-[540px];
+  }
+
+  .review_content_item {
+    @apply bg-Very-Light-Gray max-w-[540px] text-center pt-12 p-7 relative;
+  }
+
+  .review_content_item_img {
+    @apply w-[76px] absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .review_content_item_title {
+    @apply font-semibold text-base text-Dark-Blue pt-3 pb-4;
+  }
+
+  .review_content_item_description {
+    @apply text-Dark-Grayish-Blue text-base leading-[26px];
+  }
+}
