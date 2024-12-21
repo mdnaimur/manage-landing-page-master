@@ -16,7 +16,7 @@ export const NavHero = () => {
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <button className="nav_hero_btn">Get Started</button>
+          <button className="nav_hero_btn hoverable">Get Started</button>
         </div>
 
         <div className="nav_hero_img_right">
