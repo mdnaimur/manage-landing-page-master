@@ -243,12 +243,17 @@
         </div>
       </section>
       <!--===================================
-      End: Different about Manage Section
+      End: Different about Manage Section max-w-6xl mx-auto
     ====================================-->
-      swiper-slide
-      <!--============================
-      Start: Slider/Swiper Section
-    =============================-->
+      centeredSlides: false, spaceBetween: 10, grabCursor: true, freeMode:
+      false, loop: true, mousewheel: false, keyboard: { enabled: false, },
+      pagination: { el: '.swiper-pagination', }, // Enabled autoplay mode
+      autoplay: { delay: 2400, disableOnInteraction: false, }, // Responsive
+      breakpoints breakpoints: { 600: { slidesPerView: 1, spaceBetween: 30,
+      centeredSlides: false, loop: true, }, 601: { slidesPerView: 2,
+      spaceBetween: 30, centeredSlides: false, loop: true, }, 768: {
+      slidesPerView: 3, spaceBetween: 30, centeredSlides: false, loop: true, },
+      }, Start: Slider/Swiper Section =============================-->
       <section class="swiper mySwiper max-w-[1675px] mx-auto text-center">
         <div
           class="w-full mx-auto text-[30px] text-center md:text-[38px] text-DarkBlue font-semibold pt-5 pb-12 md:pb-16 md:pt-16"
