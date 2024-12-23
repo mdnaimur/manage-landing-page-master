@@ -5,7 +5,7 @@ import instrargam from "../../assets/images/icon-instagram.svg";
 import printerst from "../../assets/images/icon-pinterest.svg";
 import twitter from "../../assets/images/icon-twitter.svg";
 import yt from "../../assets/images/icon-youtube.svg";
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo-white.svg";
 
 export const Footer = () => {
   return (
@@ -49,31 +49,34 @@ export const Footer = () => {
         <div className="footer_nav">
           <div className="footer_nav_main">
             <ul className="footer_nav_main_ul">
-              <li>
+              <li className="hoverable">
                 <a href="#">Home</a>
               </li>
 
-              <li>
+              <li className="hoverable">
                 <a href="#">Pricing</a>
               </li>
 
-              <li>
+              <li className="hoverable">
                 <a href="#">Products</a>
               </li>
 
-              <li>
+              <li className="hoverable">
                 <a href="#">About Us</a>
               </li>
-
-              <li>
+            </ul>
+          </div>
+          <div className="footer_nav_main">
+            <ul className="footer_nav_main_ul">
+              <li className="hoverable">
                 <a href="#">Careers</a>
               </li>
 
-              <li>
+              <li className="hoverable">
                 <a href="#">Community</a>
               </li>
 
-              <li>
+              <li className="hoverable">
                 <a href="#">Privacy Policy</a>
               </li>
             </ul>
@@ -88,7 +91,7 @@ export const Footer = () => {
               className="footer_form_input"
               required
             />
-            <button className="footer_form_btn" type="submit">
+            <button className="footer_form_btn hoverable" type="submit">
               Go
             </button>
 
