@@ -1,0 +1,65 @@
+@tailwind base;
+
+@layer base {
+  .footer {
+    @apply w-full h-auto bg-Very-Dark-Blue pb-14 pt-12 md:pt-14 relative;
+  }
+  .footer_main {
+    @apply w-full h-full px-10 mx-auto flex flex-col-reverse 
+    justify-center items-center md:flex-row md:justify-between
+    md:items-start;
+  }
+
+  .logo_icon_combo {
+    @apply flex flex-col-reverse md:flex-col;
+  }
+  .copy_right {
+    @apply text-center text-Dark-Grayish-Blue text-xs md:hidden;
+  }
+
+  .logo {
+    @apply pt-14 pb-14 w-[146px] mx-auto md:pt-0 md:pb-20;
+  }
+
+  .icon_ul {
+    @apply flex flex-row items-center space-x-10
+    md:space-x-3;
+  }
+
+  .icon_ul_img {
+    @apply w-[34px] md:w-full;
+  }
+
+  .footer_nav {
+    @apply w-[270px] flex flex-row justify-center items-start text-Very-Light-Gray
+    pt-2 pb-14 text-sm md:flex md:flex-row md:justify-between;
+  }
+
+  .footer_nav_main {
+  }
+
+  .footer_nav_main_ul {
+    @apply space-y-3;
+  }
+
+  .footer_form {
+    @apply pb-10 md:pb-0;
+  }
+
+  .footer_form_main {
+    @apply w-full;
+  }
+
+  .footer_form_input {
+    @apply text-Bright-Red;
+  }
+
+  .footer_form_btn {
+  }
+
+  .form_error {
+  }
+
+  .form_copy_right {
+  }
+}
