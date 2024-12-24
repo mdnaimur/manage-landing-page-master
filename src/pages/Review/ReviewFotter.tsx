@@ -1,6 +1,7 @@
 export const ReviewFotter = () => {
   return (
-    <section className="review_footer">
+    // bg-[url('../../assets/images/bg-simplify-section-mobile.svg')]
+    <section className="review_footer ">
       <div className="review_footer_div">
         <div className="left">
           <p className="revire_footer_left_text">
