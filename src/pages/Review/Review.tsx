@@ -1,8 +1,6 @@
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/scrollbar";
-
+import "../../../node_modules/swiper/modules/navigation.css"; // Navigation module swiper/modules/navigation.scss
+import "../../../node_modules/swiper/modules/pagination.css"; // Pagination module swiper/modules/pagination.scss
+import "../../../node_modules/swiper/swiper.css"; // core Swiper
 import "./Review.css";
 
 import { Autoplay, Pagination } from "swiper/modules";
