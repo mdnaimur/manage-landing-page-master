@@ -2,10 +2,10 @@
 
 @layer base {
   .footer {
-    @apply w-full h-auto bg-Very-Dark-Blue pb-14 pt-12 md:pt-14 relative;
+    @apply w-full h-auto bg-Very-Dark-Blue pb-14 pt-12 md:pt-14 md:pl-24 md:pr-24;
   }
   .footer_main {
-    @apply w-full h-full px-10 mx-auto flex flex-col-reverse 
+    @apply w-full h-full  px-10 mx-auto flex flex-col-reverse 
     justify-center items-center md:flex-row md:justify-between
     md:items-start;
   }
@@ -31,8 +31,8 @@
   }
 
   .footer_nav {
-    @apply w-[270px] flex flex-row justify-center items-start text-Very-Light-Gray
-    pt-2 pb-14 text-sm md:flex md:flex-row md:justify-between;
+    @apply w-[270px] flex flex-row justify-between items-start text-Very-Light-Gray
+    pt-2 pb-14 text-lg md:flex md:flex-row md:justify-between;
   }
 
   .footer_nav_main {
@@ -51,15 +51,21 @@
   }
 
   .footer_form_input {
-    @apply text-Bright-Red;
+    @apply text-Bright-Red  border-transparent outline-none inline-block
+    mr-1 placeholder-Dark-Grayish-Blue text-sm rounded-full w-auto py-2 px-5;
   }
 
   .footer_form_btn {
+    @apply bg-Bright-Red text-Very-Light-Gray rounded-full text-sm
+    inline-block px-6 py-2 font-bold;
   }
 
   .form_error {
+    @apply text-Bright-Red text-sm hidden;
   }
 
   .form_copy_right {
+    @apply hidden text-right text-Dark-Grayish-Blue text-xs
+    md:block md:pt-16;
   }
 }
