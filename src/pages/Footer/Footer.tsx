@@ -15,31 +15,31 @@ export const Footer = () => {
           <p className="copy_right">Copyright 2020. All Rights Reserved</p>
           <img src={logo} alt="" className="logo" />
           <ul className="icon_ul">
-            <li>
+            <li className="hoverable">
               <a href="#">
                 <img src={facebook} alt="" className="icon_ul_img" />
               </a>
             </li>
 
-            <li>
+            <li className="hoverable">
               <a href="#">
                 <img src={yt} alt="" className="icon_ul_img" />
               </a>
             </li>
 
-            <li>
+            <li className="hoverable">
               <a href="#">
                 <img src={twitter} alt="" className="icon_ul_img" />
               </a>
             </li>
 
-            <li>
+            <li className="hoverable">
               <a href="#">
                 <img src={printerst} alt="" className="icon_ul_img" />
               </a>
             </li>
 
-            <li>
+            <li className="hoverable">
               <a href="#">
                 <img src={instrargam} alt="" className="icon_ul_img" />
               </a>

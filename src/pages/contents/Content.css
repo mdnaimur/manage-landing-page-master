@@ -3,7 +3,7 @@
 @layer base {
   .content {
     @apply flex flex-col w-full justify-center items-start mx-auto text-center
-    px-16 pt-16 pb-20 text-Dark-Blue 
+    px-16 pt-16 pb-20 text-Dark-Blue md:pl-28 md:pr-28
     md:flex-row;
   }
 

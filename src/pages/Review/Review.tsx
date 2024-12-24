@@ -26,7 +26,6 @@ export const Review = () => {
         modules={[Autoplay, Pagination]}
         spaceBetween={50}
         slidesPerView={1}
-        onSlideChange={() => console.log("slide change")}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,

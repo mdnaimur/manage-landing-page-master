@@ -7,11 +7,13 @@ export default {
   theme: {
     backgroundImage: {
       'BodyBackImg': "url(./src/assets/images/bg-tablet-pattern.svg)",
+      'ReviewFooterMobileImg': "url(./src/assets/images/bg-simplify-section-mobile.svg)",
+      'ReviewFooterDesktopImg': "url(./src/assets/images/bg-simplify-section-desktop.svg)",
     },
     extend: {
       screens: {
         sm: '375px',
-        md: '480px',
+        md: '580px',
         lg: '768px',
         xl: '967px',
         xxl: '1440px',

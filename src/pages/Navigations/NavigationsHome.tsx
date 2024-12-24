@@ -5,11 +5,11 @@ import { Navbar } from "./Navbar";
 
 export const NavigationsHome = () => {
   return (
-    <div className="font-BeVetnamPro">
+    <div className="font-BeVetnamPro  md:pl-16 md:pr-16">
       <div
         className="-z-10 top-0 h-full max-w-lg md:max-w-none w-full right-0 absolute bg-BodyBackImg bg-no-repeat 
          bg-[size:clamp(420px,calc(35vmin+270px),500px)] md:bg-[size:clamp(420px,80vmin,700px)] 
-        bg-[position:top_-30%_right_calc(1vmin-130px)] sm:bg-[position:top_-30%_right_calc(5vmin-70px)]
+        bg-[position:top_-30%_right_calc(1vmin-130px)] sm:bg-[position:top_-15%_right_calc(5vmin-70px)]
         md:bg-[position:calc(100%+150px)_-100px]
         aria-hidden 
       "

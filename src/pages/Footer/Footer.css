@@ -2,7 +2,7 @@
 
 @layer base {
   .footer {
-    @apply w-full h-auto bg-Very-Dark-Blue pb-14 pt-12 md:pt-14;
+    @apply w-full h-auto bg-Very-Dark-Blue pb-14 pt-12 md:pt-14 md:pl-24 md:pr-24;
   }
   .footer_main {
     @apply w-full h-full  px-10 mx-auto flex flex-col-reverse 

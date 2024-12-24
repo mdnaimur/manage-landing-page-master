@@ -9,7 +9,7 @@ import { ReviewFotter } from "./pages/Review/ReviewFotter";
 function App() {
   return (
     <>
-      <div className="">
+      <div className="w-full font-BeVetnamPro">
         <NavigationsHome />
         <Content />
         <Review />
