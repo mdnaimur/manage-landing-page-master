@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     backgroundImage: {
-      'BodyBackImg': "url(./images/bg-tablet-pattern.svg)",
-      'ReviewFooterMobileImg': "url(./images/bg-simplify-section-mobile.svg)",
-      'ReviewFooterDesktopImg': "url(./images/bg-simplify-section-desktop.svg)",
+      'BodyBackImg': "url(/images/bg-tablet-pattern.svg)",
+      'ReviewFooterMobileImg': "url(/images/bg-simplify-section-mobile.svg)",
+      'ReviewFooterDesktopImg': "url(/images/bg-simplify-section-desktop.svg)",
     },
     extend: {
       screens: {
