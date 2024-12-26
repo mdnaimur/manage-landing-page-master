@@ -3,7 +3,7 @@
 @layer base {
   .review {
     @apply flex flex-col pb-6 mb-2 mx-auto text-center lg:bg-BodyBackImg bg-no-repeat
-    lg:bg-[position:-90%_30px];
+    lg:bg-[position:-90%_30px] xl:bg-[position:-500px_30px];
   }
   /* md:bg-[position:calc(100%+270px)_-140px]; */
 
